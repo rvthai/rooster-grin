@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/rooster-grin/static/css/main.7cbda754.chunk.css",
+    "main.js": "/rooster-grin/static/js/main.f6a3621c.chunk.js",
+    "main.js.map": "/rooster-grin/static/js/main.f6a3621c.chunk.js.map",
+    "runtime-main.js": "/rooster-grin/static/js/runtime-main.27af590a.js",
+    "runtime-main.js.map": "/rooster-grin/static/js/runtime-main.27af590a.js.map",
+    "static/js/2.d76f2796.chunk.js": "/rooster-grin/static/js/2.d76f2796.chunk.js",
+    "static/js/2.d76f2796.chunk.js.map": "/rooster-grin/static/js/2.d76f2796.chunk.js.map",
+    "static/js/3.0ad3fb65.chunk.js": "/rooster-grin/static/js/3.0ad3fb65.chunk.js",
+    "static/js/3.0ad3fb65.chunk.js.map": "/rooster-grin/static/js/3.0ad3fb65.chunk.js.map",
+    "index.html": "/rooster-grin/index.html",
+    "static/css/main.7cbda754.chunk.css.map": "/rooster-grin/static/css/main.7cbda754.chunk.css.map",
+    "static/js/2.d76f2796.chunk.js.LICENSE.txt": "/rooster-grin/static/js/2.d76f2796.chunk.js.LICENSE.txt",
+    "static/media/angle-left-solid.584e5dc9.svg": "/rooster-grin/static/media/angle-left-solid.584e5dc9.svg",
+    "static/media/angle-right-solid.4205abc2.svg": "/rooster-grin/static/media/angle-right-solid.4205abc2.svg",
+    "static/media/banner-1.4638a869.jpg": "/rooster-grin/static/media/banner-1.4638a869.jpg",
+    "static/media/banner-2.94ddf3c2.jpg": "/rooster-grin/static/media/banner-2.94ddf3c2.jpg",
+    "static/media/facebook.21e188d8.svg": "/rooster-grin/static/media/facebook.21e188d8.svg",
+    "static/media/Hero.module.css": "/rooster-grin/static/media/hero.9a710d87.jpg",
+    "static/media/home-expertise.431e1bc5.svg": "/rooster-grin/static/media/home-expertise.431e1bc5.svg",
+    "static/media/home-hygiene.289cbb0a.svg": "/rooster-grin/static/media/home-hygiene.289cbb0a.svg",
+    "static/media/home-lab.33fec398.svg": "/rooster-grin/static/media/home-lab.33fec398.svg",
+    "static/media/home-retention.78e8e24e.svg": "/rooster-grin/static/media/home-retention.78e8e24e.svg",
+    "static/media/img-1.7a73ec85.jpg": "/rooster-grin/static/media/img-1.7a73ec85.jpg",
+    "static/media/instagram.4244940c.svg": "/rooster-grin/static/media/instagram.4244940c.svg",
+    "static/media/logo-white.daed702e.svg": "/rooster-grin/static/media/logo-white.daed702e.svg",
+    "static/media/star.c8f3711d.svg": "/rooster-grin/static/media/star.c8f3711d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27af590a.js",
+    "static/js/2.d76f2796.chunk.js",
+    "static/css/main.7cbda754.chunk.css",
+    "static/js/main.f6a3621c.chunk.js"
+  ]
+}
