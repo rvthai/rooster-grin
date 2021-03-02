@@ -1,0 +1,95 @@
+.section {
+  grid-area: carousel;
+  height: 300px;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+  margin-left: 20%;
+}
+
+.arrow {
+  width: 15px;
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  color: #613476;
+}
+
+.name {
+  margin-right: 0.25em;
+}
+
+.date {
+  margin-left: 0.25em;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+.slides {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: all 0.3s;
+}
+
+.slide {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.circles {
+  display: flex;
+}
+
+.circle,
+.activeCircle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffe465;
+  transition: 0.3s;
+  margin: 0 0.25em;
+}
+
+.activeCircle {
+  background: #ffc718;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    height: 100%;
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+    top: 50%;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    transform: translateY(-50%);
+    padding: 1em 0;
+    margin-left: 0;
+  }
+}

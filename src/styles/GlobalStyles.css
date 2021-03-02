@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: clamp(1rem, 1.5vw, 3rem);
+  font-weight: bold;
+}
+
+p {
+  font-size: clamp(0.75rem, 1.5vw, 1rem);
+}
+
+button {
+  color: #fff;
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  font-weight: bold;
+  padding: 0.75em 1em;
+  letter-spacing: 0.05em;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  font-size: clamp(0.75rem, 1vw, 1rem);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh repeat(7, auto);
+  grid-template-areas:
+    "hero hero"
+    "intro introimage"
+    "service service"
+    "work workicons"
+    "product product"
+    "reviews carousel"
+    "footer footer";
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70vh repeat(9, auto);
+    grid-template-areas:
+      "hero"
+      "introimage"
+      "intro"
+      "service"
+      "work"
+      "workicons"
+      "product"
+      "reviews"
+      "carousel"
+      "footer";
+  }
+}

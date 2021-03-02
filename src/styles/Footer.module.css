@@ -1,0 +1,36 @@
+.section {
+  grid-area: footer;
+  background: #fafafa;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  color: #613476;
+  margin: 1em 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 0.5em;
+  }
+
+  .icon {
+    width: 25px;
+    color: #613476;
+    margin: 0.5em 0.5em;
+  }
+}

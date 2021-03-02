@@ -1,0 +1,35 @@
+.h-primary {
+  color: #613476;
+}
+
+.h-secondary {
+  color: #3e3e3e;
+}
+
+.btn-primary {
+  color: #613476;
+}
+
+.btn-secondary {
+  background: #ff7218;
+}
+
+.link {
+  color: #613476;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkText {
+  transition: all 0.3s;
+}
+
+.link:hover .linkText {
+  margin-left: 0.5em;
+}
+
+.body {
+  color: #161616;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}

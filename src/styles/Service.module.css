@@ -1,0 +1,28 @@
+.section {
+  grid-area: service;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-right: 0;
+    text-align: center;
+  }
+}
